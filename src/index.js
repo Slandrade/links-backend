@@ -20,6 +20,6 @@ app.get('/', (req, res) => {
 
 db.sequelize.sync().then(() => {
     app.listen(3001, () => {
-        console.log('LIstening on port 3001');
+        console.log('Listening on port 3001');
     });
 });
